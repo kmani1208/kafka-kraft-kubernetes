@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Document Kafka Services, listeners, and StatefulSet",
+    "body": "## Goal\n\nDocument Kafka Services, listeners, and StatefulSet.\n\n## Acceptance criteria\n\n- [ ] Add the headless and broker Services and a single-broker KRaft StatefulSet.\n- [ ] Use namespace kafka consistently in selectors, DNS addresses, voter configuration, and storage references.\n- [ ] Explain the three listeners, NodePort 30092 to port 9094, and the internal NodePort if retained.\n- [ ] Use 50Gi storage and leave JVM memory headroom.\n- [ ] Explain cluster-ID preparation, node addressing, and fresh-install deployment order.\n- [ ] Check the manifests and complete section review.\n\n## Completion workflow\n\nComplete a small section and pause for review. Commit with a reference to this issue. Close as completed only when the acceptance criteria are met, recording the commit and validation evidence or publication URL.\n",
+    "issue_number": 1,
+    "url": "https://github.com/kmani1208/kafka-kraft-kubernetes/issues/1"
+  },
+  {
+    "title": "Document Kafka UI deployment and access",
+    "body": "## Goal\n\nDocument Kafka UI deployment and access.\n\n## Acceptance criteria\n\n- [ ] Add the Kafka UI Deployment and Service.\n- [ ] Explain internal bootstrap connectivity and NodePort 32092 browser access.\n- [ ] Document connectivity checks and distinguish verified behavior from expected behavior.\n- [ ] Complete section review.\n\n## Completion workflow\n\nComplete a small section and pause for review. Commit with a reference to this issue. Close as completed only when the acceptance criteria are met, recording the commit and validation evidence or publication URL.\n",
+    "issue_number": 2,
+    "url": "https://github.com/kmani1208/kafka-kraft-kubernetes/issues/2"
+  },
+  {
+    "title": "Add producer, consumer, and persistence verification",
+    "body": "## Goal\n\nAdd producer, consumer, and persistence verification.\n\n## Acceptance criteria\n\n- [ ] Provide a dedicated test topic and producer/consumer commands.\n- [ ] Check internal and external connectivity and advertised broker metadata independently.\n- [ ] Explain consumer groups and earliest offset reset.\n- [ ] Document a controlled lab pod-recreation test for persistent data.\n- [ ] Record actual test results separately from expected outputs.\n- [ ] Complete section review.\n\n## Completion workflow\n\nComplete a small section and pause for review. Commit with a reference to this issue. Close as completed only when the acceptance criteria are met, recording the commit and validation evidence or publication URL.\n",
+    "issue_number": 3,
+    "url": "https://github.com/kmani1208/kafka-kraft-kubernetes/issues/3"
+  },
+  {
+    "title": "Write troubleshooting from the recorded deployment experience",
+    "body": "## Goal\n\nWrite troubleshooting from the recorded deployment experience.\n\n## Acceptance criteria\n\n- [ ] Cover missing CLI commands and the /opt/kafka/bin path.\n- [ ] Cover consumers waiting while Kafka UI shows messages.\n- [ ] Explain Service mappings, advertised listeners, DNS, and connection-refused diagnosis.\n- [ ] Distinguish recovered incidents, proposed fixes, confirmed outcomes, and tutorial improvements.\n- [ ] Do not attribute unresolved downstream failures conclusively to Kafka.\n- [ ] Complete section review.\n\n## Completion workflow\n\nComplete a small section and pause for review. Commit with a reference to this issue. Close as completed only when the acceptance criteria are met, recording the commit and validation evidence or publication URL.\n",
+    "issue_number": 4,
+    "url": "https://github.com/kmani1208/kafka-kraft-kubernetes/issues/4"
+  },
+  {
+    "title": "Assemble and review the complete DEV Community article",
+    "body": "## Goal\n\nAssemble and review the complete DEV Community article.\n\n## Acceptance criteria\n\n- [ ] Combine sections under the approved general Kafka/Kubernetes title.\n- [ ] Check commands, code, links, placeholder instructions, and deployment order.\n- [ ] Explain the development scope, static quorum, local storage, and lack of redundancy.\n- [ ] Exclude environment-specific addresses and generated Kubernetes metadata from publication examples.\n- [ ] Link to the repository and state actual validation limits.\n- [ ] Complete final article review.\n\n## Completion workflow\n\nComplete a small section and pause for review. Commit with a reference to this issue. Close as completed only when the acceptance criteria are met, recording the commit and validation evidence or publication URL.\n",
+    "issue_number": 5,
+    "url": "https://github.com/kmani1208/kafka-kraft-kubernetes/issues/5"
+  },
+  {
+    "title": "Publish the reviewed article on DEV Community",
+    "body": "## Goal\n\nPublish the reviewed article on DEV Community.\n\n## Acceptance criteria\n\n- [ ] Use the reviewed article.\n- [ ] Include the GitHub repository link and relevant tags.\n- [ ] Check rendered code blocks, tables, and links.\n- [ ] Record the published URL in the repository.\n- [ ] Close only after publication is confirmed.\n\n## Completion workflow\n\nComplete a small section and pause for review. Commit with a reference to this issue. Close as completed only when the acceptance criteria are met, recording the commit and validation evidence or publication URL.\n",
+    "issue_number": 6,
+    "url": "https://github.com/kmani1208/kafka-kraft-kubernetes/issues/6"
+  },
+  {
+    "title": "Prepare and publish the LinkedIn summary",
+    "body": "## Goal\n\nPrepare and publish the LinkedIn summary.\n\n## Acceptance criteria\n\n- [ ] Draft the professional summary around specific engineering lessons.\n- [ ] Link to the published DEV article and GitHub examples.\n- [ ] Complete user review before publishing.\n- [ ] Record the published URL.\n- [ ] Close only after publication is confirmed.\n\n## Completion workflow\n\nComplete a small section and pause for review. Commit with a reference to this issue. Close as completed only when the acceptance criteria are met, recording the commit and validation evidence or publication URL.\n",
+    "issue_number": 7,
+    "url": "https://github.com/kmani1208/kafka-kraft-kubernetes/issues/7"
+  }
+]

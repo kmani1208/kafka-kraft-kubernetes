@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: kafka-data-kafka-0
+  namespace: kafka
+  labels:
+    app: kafka
+spec:
+  accessModes:
+    - ReadWriteOnce
+  volumeMode: Filesystem
+  storageClassName: ""
+  resources:
+    requests:
+      storage: 50Gi
+  volumeName: pv-kafka-0
